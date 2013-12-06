@@ -25,7 +25,7 @@
 module tetris( Reset, Clk, Start, Ack, Left, Right, Down, Rotate,
 	q_I, q_Gen, q_Rot, q_Col, q_Lose, blocks, score, orientation, location, next_block
     );
-
+ 
 input Reset, Clk;
 input Start, Ack;	
 input Left, Right, Down;
